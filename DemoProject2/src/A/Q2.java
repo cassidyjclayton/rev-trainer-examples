@@ -39,6 +39,8 @@ public class Q2 {
   
         // Function Call
         Fibonacci(N);
+        // Optional: don't bother w/ naming variable, pop int right into 
+        // the function. IT still runs.
 	}
 
 }  

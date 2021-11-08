@@ -13,7 +13,11 @@ public class Driver{
 
 		Q4 q4 = new Q4();
 		q4.Factorial(15);
-		Q5.TestSubstring(4);
+
+		Q5 subStr = new Q5;
+		subStr.SubString("Critical Role", 7);
+		subStr.subString("SpaceX", 5);
+		
 		Q6;
 		Q7 q7 = new Q7();
 		q7.Compare();

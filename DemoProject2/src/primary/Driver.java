@@ -4,9 +4,15 @@ package primary;
 public class Driver{
 	public static void main(String...args){
 		Q1.BubbleSort();
-		Q2.Fibonacci(25);
-		Q3.TestReverse();
-		Q4;
+
+		Q2 q2 = new Q2()
+		q2.Fibonacci(25);
+
+		Q3 q3 = new Q()
+		q3.reverse("Dungeons & Dragons");
+
+		Q4 q4 = new Q4();
+		q4.Factorial(15);
 		Q5.TestSubstring(4);
 		Q6;
 		Q7 q7 = new Q7();

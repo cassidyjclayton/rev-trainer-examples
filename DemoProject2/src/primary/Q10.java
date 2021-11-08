@@ -4,7 +4,7 @@ import java.io*;
 public class Q10{
 	public static void main(String[] args) {
 		Minimum(int i, int j, int k) {
-			//declare variables in 
+			//declare variables in
 			i, j, min;
 
 			System.out.println("First number: " + i);
@@ -15,8 +15,6 @@ public class Q10{
 
 			// print largest #
 			System.out.println("The minimum # is: " + min);
-
-
 
 		}
 	}

@@ -31,7 +31,7 @@ public class Q7 {
 	}
 
 	public void Compare() {
-
+// Each entry serves as a new object, and implementation of the Employee class
 		Employee john = new Employee();
 		john.name = "John";
 		john.department = "Accounting";
@@ -64,6 +64,7 @@ public class Q7 {
 
 		for (int i = 0; i < employees.size(); ++i) {
 			System.out.println(employees.get(i).toString());
+			//code taken from Monday's lesson, coded by Jacob Davis
 		}
 	}
 }

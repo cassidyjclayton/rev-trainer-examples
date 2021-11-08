@@ -4,7 +4,7 @@ package primary;
 public class Driver{
 	public static void main(String...args){
 		Q1.BubbleSort();
-		Q2;
+		Q2.Fibonacci(25);
 		Q3.TestReverse();
 		Q4;
 		Q5.TestSubstring(4);

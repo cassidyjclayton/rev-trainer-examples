@@ -1,34 +1,51 @@
-package primary;
-public class Q1 {
+public class BubbleSort {
 
-	public static void main(String[] args) {
-		String myMessage = "Hello! :3 "; //aka String Literal, named for the manually-entered values
-		int runIterations = 5;
-		
-		for (int i = 0; i <runIterations; ++i) {
-			System.out.println(myMessage + ": " + i);
-		} 
-		// for loop s are great for lists (or for a certain # of times ! of course, arrays start with first position = 0
-		int j = 0;
-		while (j < runIterations)
-		{
-			System.out.println("J is still going! J = " + j);
-			++j;
-		}
-		//boolean done = false;
-		//while (!done) {
-			//'!" = not; negates any boolean value (i.e. reverses it)
-			//System.out.println("Still not done!");
-			
-			//if (j % 12 == 0)
-				//done = true;
-		//}
-		// While loops useful for code that needs to run so long as something is true. 
-		//while(true) is an infinite loop. Danger! 
+    public BubbleSort() { }
 
-	// Do-while loops always run enclosed code min 1 time; bc check for continuing is done @ end not beginning
-	do {
-		
-	} while (true);
+    public static void main(String[] args) {
 
-}}
+        int[] myArray = {4, 6, 5, 7, 3, 2, 9, 1};
+
+        System.out.println("Not Sorted:");
+        printArray(myArray);
+
+        BubbleSort(myArray);
+
+        System.out.println("Sorted:");
+        printArray(myArray);
+    }
+
+   static void BubbleSort(int myArray[]){
+
+        //length of array
+        int arrayLength = myArray.length;
+
+        //number of iterations through the array is determined by its length-1
+        for (int i = 0; i < arrayLength-1; i++) {
+            for (int j = 0; j < arrayLength - i - 1; j++) {
+                //swap the two values if the first is greater than the next
+                if (myArray[j] > myArray[j + 1]) {
+
+                    //set the first to temp variable
+                    int temp = myArray[j];
+                    //set the second to the first position
+                    myArray[j] = myArray[j + 1];
+                    //set the temporary variable to the next position
+                    myArray[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    static void printArray(int myArray[])
+    {
+        //get array length
+        int n = myArray.length;
+        //iterate through array and print it out
+        for (int i=0; i<n; ++i) {
+            System.out.print(myArray[i] + " ");
+        }
+        System.out.println();
+    }
+
+}

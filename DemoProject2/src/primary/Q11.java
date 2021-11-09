@@ -9,7 +9,7 @@ package primary;
    public class AccessFrom {
 
        public AccessFrom() { }
-   
+
        public static void main(String[] args) {
            Variables numbers = new Variables();
 

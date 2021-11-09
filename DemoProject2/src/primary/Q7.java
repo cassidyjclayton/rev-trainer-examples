@@ -1,5 +1,8 @@
 package primary;
-
+/*
+Sort two employees based on their name, department, and age
+using the Comparator interface.
+*/
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

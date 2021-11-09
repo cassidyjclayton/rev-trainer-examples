@@ -1,5 +1,10 @@
 package primary;
-
+/*
+Write a program that stores the following strings in an
+ArrayList and saves all the palindromes in another ArrayList.
+“karan”, “madam”, ”tom”, “civic”, “radar”, “jimmy”, “kayak”,
+“john”, “refer”, “billy”, “did”
+*/
 public class Q8{
 	public boolean isPalindrome(String s) {
 		for(int i = 0; i <s.length() / 2; ++i) {
@@ -23,7 +28,7 @@ public class Q8{
 			ArrayList<String> palindromeCheck.add("refer");
 			ArrayList<String> palindromeCheck.add("billy");
 			ArrayList<String> palindromeCheck.add("did");
-			
+
 
 		}
 	}

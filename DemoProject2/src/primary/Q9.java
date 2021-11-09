@@ -1,5 +1,8 @@
 package primary;
-
+/*
+Create an ArrayList which stores numbers from 1 to 100 and
+prints out all the prime numbers to the console.
+*/
 public class Q9 {
 	public void Prime(){
 		int[] numArray = new int[100];
@@ -25,4 +28,4 @@ public class Q9 {
 			}
 		}
 	} //code from Josephy 'Joey' Revay
-}		
+}

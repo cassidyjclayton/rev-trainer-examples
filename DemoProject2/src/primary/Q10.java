@@ -1,4 +1,7 @@
 package primary;
+/*
+Find the minimum of two numbers using ternary operators.
+*/
 import java.io*;
 
 public class Q10{

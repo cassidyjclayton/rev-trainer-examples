@@ -180,7 +180,7 @@ public class Driver{
 
 		Name: Mickey Mouse
 		Age: 35 years
-		State: Arizona State		
+		State: Arizona State
 		*/
 		Q20;
 

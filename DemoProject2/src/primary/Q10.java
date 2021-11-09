@@ -13,7 +13,7 @@ public class Q10{
 			System.out.println("First number: " + i);
 			System.out.println("Second number: " + j);
 
-			// find larger # viea ternar operators
+			// find larger # via ternary operators
 			min = (i < j) ? i : j;
 
 			// print largest #

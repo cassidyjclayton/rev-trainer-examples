@@ -23,8 +23,20 @@ public class Driver{
 		q7.Compare();
 		Q8 q8 = new Q8();
 		q8.Palindrome();
-		Q9;
-		Q10;
+		Q9.Prime() ;
+		Q10 q10 = new Q10();
+		q10.Compare(8,9)
+		Q11;
+		Q12;
+		Q13;
+		Q14;
+		Q15;
+		Q16;
+		Q17;
+		Q18;
+		Q19;
+		Q20;
+
 
 
 

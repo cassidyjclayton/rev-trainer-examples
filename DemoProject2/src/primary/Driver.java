@@ -18,7 +18,14 @@ public class Driver{
 		subStr.SubString("Critical Role", 7);
 		subStr.subString("SpaceX", 5);
 
-		Q6;
+		/*
+		Q6. Write a program to determine if an integer is even
+		without using the modulus operator (%)
+		*/
+		Q6 even = new Q6();
+		even.isEven(26);
+
+
 		Q7 q7 = new Q7();
 		q7.Compare();
 		Q8 q8 = new Q8();
